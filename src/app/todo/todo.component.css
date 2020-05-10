@@ -1,0 +1,70 @@
+.container {
+  width: 800px;
+}
+
+.cont {
+  width: 750px;
+}
+
+.twit {
+  color: dodgerblue;
+}
+
+.material-icons {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.like-text {
+  color: #b0c4de;
+  cursor: pointer;
+}
+
+.like-text:hover {
+  color: #8abbf9;
+}
+
+.twitter {
+  left: 30px;
+}
+
+.favorite {
+  color: dodgerblue;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.my {
+  color: dodgerblue;
+  font-size: 13px;
+}
+
+.my:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.list {
+  color: #dc3545;
+  font-size: 23px;
+}
+
+.all {
+  color: #dc3545;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.all:hover {
+  text-decoration: underline;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.messages {
+  padding: 0 0 0 5px;
+}
