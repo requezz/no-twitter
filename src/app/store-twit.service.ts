@@ -38,12 +38,15 @@ export class StoreTwitService {
     }
  ];
 
+
   onlyLike = false;
 
-  allTwits(){
-    this.onlyLike = false;
-  }
+  active = false;
 
+  toggleAll() {
+    this.onlyLike = false;
+    this.active = !this.active;
+  }
 
 
   getTwits() {

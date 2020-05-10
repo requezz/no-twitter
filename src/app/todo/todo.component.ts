@@ -24,12 +24,9 @@ export class TodoComponent implements OnInit {
     this.service.removeCompletedItems();
   }
 
-  getTwits() {
-    this.service.getTwits();
-  }
 
-  allTwits() {
-    this.service.allTwits();
+  toggleAll() {
+    this.service.toggleAll();
   }
 
 

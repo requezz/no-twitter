@@ -4,16 +4,16 @@
         <span class="twit">twitter</span>
       <hr>
       </div>
-      <div class="row justify-content-between" (click)="allTwits()">
-        <div class="twitter col-6 text-left small" (click)="getItems()">
-          <span class="d-flex align-items-center">
+      <div class="row justify-content-between">
+        <div class="twitter col-6 text-left small">
+          <span class="d-flex align-items-center" (click)="toggleAll()">
             <span class="material-icons">
             <span class="list">
               list
             </span>
             </span>
             <span class="all">
-               все твиты
+              все твиты
             </span>
           </span>
         </div>
